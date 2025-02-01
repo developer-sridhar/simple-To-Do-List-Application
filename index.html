@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <aside class="sidebar" id="sidebar">
+      <img src="assets/todo_icon.png" alt="Todo Logo" class="logo">
+      <ul>
+        <li id="all-tasks-btn">All Tasks</li>
+        <li id="completed-tasks-btn">Completed Tasks</li>
+        <li id="pending-tasks-btn">Pending Tasks</li>
+      </ul>
+      <button id="toggle-sidebar" class="toggle-sidebar-btn">☰</button>
+      <button id="close-sidebar" class="close-sidebar-btn">✕</button>
+    </aside>
+    <main class="main-content">
+      <header class="header">
+        <input type="text" class="search-bar" placeholder="Search tasks...">
+      </header>
+      <section class="task-controls">
+        <input type="text" id="new-task" placeholder="Enter task name">
+        <button id="add-task-btn">Add Task</button>
+      </section>
+      <section class="tasks-section">
+        <div class="task-buttons">
+          <button class="task-btn" id="view-today">Today</button>
+          <button class="task-btn" id="view-all">All Tasks</button>
+        </div>
+        <ul id="task-list"></ul>
+      </section>
+    </main>
+  </div>
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>
