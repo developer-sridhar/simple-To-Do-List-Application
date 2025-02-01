@@ -2,6 +2,9 @@
 
 This is a **Simple To-Do List Application** built as part of the Optifyx Technology Internship task. The application allows users to add, manage, filter, and search for tasks with ease. Tasks can be marked as completed or pending, and users can view tasks by their completion status or by specific dates.
 
+## Live Demo
+You can view the live demo of the application here: [Live Demo](https://simpletodolistapplication.vercel.app/)
+
 ## Features
 - **Add New Tasks:** Allows users to input and add new tasks.
 - **Task Status:** Users can mark tasks as completed or pending.
